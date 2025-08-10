@@ -7,10 +7,10 @@ const toBool = (value) => value === "true";
 // Owner & Bot Details
 global.owner = process.env.OWNER_NUMBER;
 global.anitav4 = process.env.BOT_NAME || "ℂ𝕆ℕ𝕊ℙ𝕀ℝ𝔼𝕏 💫";
-global.ownername = process.env.OWNER_NAME || "☪️🆃🅾🅿-🅱🅾🆈☦️";
+global.ownername = process.env.OWNER_NAME || "☪️𝐓𝐎𝐏 𝐁𝐎𝐘☦️";
 global.packname = process.env.PACK_NAME || "ℂ𝕆ℕ𝕊ℙ𝕀ℝ𝔼𝕏 💫";
-global.author = process.env.AUTHOR || "☪️🆃🅾🅿-🅱🅾🆈☦️";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
+global.author = process.env.AUTHOR || "☪️𝐓𝐎𝐏 𝐁𝐎𝐘☦️";
+global.channelname = process.env.CHANNEL_NAME || "𝐓𝐎𝐏 𝐁𝐎𝐘";
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 
 // Auto-Features
@@ -18,7 +18,7 @@ global.autoTyping = toBool(process.env.AUTO_TYPING);
 global.autoRecord = toBool(process.env.AUTO_RECORD);
 global.autoViewStatus = toBool(process.env.AUTO_VIEW_STATUS);
 global.AUTO_STATUS_REACT = toBool(process.env.AUTO_STATUS_REACT);
-global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
+global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💫";
 global.LEVELUP = toBool(process.env.LEVELUP);
 global.ANTIVIEWONCE = toBool(process.env.ANTIVIEWONCE);
 
